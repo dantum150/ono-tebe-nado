@@ -139,9 +139,8 @@
 .promo__title__word__end__spacing {
     letter-spacing: normal;
     position: relative;
-    right: 29px;
+    right: 29px;    
 }
-
 
 .promo__text__spacing {
     word-spacing: 18px;
@@ -177,6 +176,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 450px;
     gap: 25px;
+}
+
+.lots__card__link {
+    text-decoration: none;
 }
 
 .lots__card {
@@ -326,16 +329,16 @@
     gap: 48px;
 }
 
-.footer__link {
+.footer__icon {
     border-radius: 50%;
     box-shadow: 1px 1px 10px transparent;
     transition: 0.5s;
 }
 
-.footer__link:hover {
+.footer__icon:hover {
     box-shadow: 1px 1px 10px #000;
 }
 
-.footer__line__offset {
+.footer__link {
     text-underline-offset: 4px;
 }
